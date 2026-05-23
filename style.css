@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: solid 1px red; */
+  font-weight: normal;
+}
+
+img {
+  vertical-align: bottom;
+  width: 50%;
+}
+
+/* レイアウト 
+ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
+body {
+  background-color: blanchedalmond;
+  font-family: "Kaisei Decol", serif;
+  line-height: 1.7;
+  background-image: url(../img/haikei-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #777;
+}
+
+.align-center {
+  text-align: center;
+  color: #777;
+}
+
+/* 
+ヘッダー 
+ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
+
+a {
+  text-decoration: none;
+}
+
+h1 a {
+  color: #777;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.page-header {
+  padding: .5rem;
+
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  font-size: 1rem;
+  list-style: none;
+  margin-top: 5px;
+
+}
+
+.main-nav a {
+  color: #777;
+}
+
+.main-nav a:hover {
+  color: #8b5e3c;
+}
+
+/* 
+見出し
+ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
+.page-title,
+.heading-large {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.page-title {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  line-height: 1.4;
+}
+
+.heading-large {
+  font-size: 1.7rem;
+}
+
+/* 
+内容
+ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
+.about {
+  max-width: 736px;
+  padding: 0 1.5rem;
+  margin: 3rem auto 0;
+}
+
+.about p {
+  margin-bottom: 2rem;
+}
+
+/* 
+ボタン
+ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
+.btn {
+  display: inline-block;
+  font-size: 1.3rem;
+  background-color: #c58b5b;
+  color: #fff;
+  border-radius: 8px;
+  padding: .5rem 1.5rem;
+  transition: .5s;
+  margin-bottom: 5rem;
+}
+
+.btn:hover {
+  background-color: #8b5e3c;
+  color: white;
+}
+
+/* 
+フッター
+ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
+.info {
+  width: 100%;
+  max-width: 544px;
+  margin: auto;
+  padding: 0 1.5rem;
+  border-spacing: 0;
+}
+
+.info th,
+.info td {
+  border-bottom: dotted 1px #8b5e3c;
+}
+
+.info th {
+  text-align: left;
+  font-weight: normal;
+  padding: 1rem;
+}
+
+.info td {
+  padding: 1rem 0
+}
+
+.copyright {
+  background-color: #8b5e3c;
+  text-align: center;
+  padding: .5rem 0;
+  margin-top: 6rem;
+  color: #fff;
+}
