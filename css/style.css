@@ -302,7 +302,7 @@ max-width: 30%;
     font-size: 4rem;
     display: inline-block;
     border-bottom: dotted 5px #c58b5b;
-    margin-left: .5rem;
+    margin-left: 1rem;
   }
 
   .about,
@@ -310,7 +310,6 @@ max-width: 30%;
     max-width: 2000px;
     width: 100%;
     margin: 4rem 0 0 0;
-    padding: 0 2rem;
   }
 
   .about p,
@@ -343,7 +342,7 @@ max-width: 30%;
   /* 
 フッター
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
-  .info {
+.info {
     width: 100%;
     max-width: 544px;
     padding: 0 1.5rem;
