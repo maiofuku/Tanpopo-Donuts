@@ -316,6 +316,7 @@ max-width: 30%;
   .menu p {
     width: 95%;
     font-size: 2rem;
+    padding-left: 2rem;
   }
 
   .menu p{
@@ -331,6 +332,9 @@ max-width: 30%;
   gap: 1em 1rem;
 }
 
+.flex p{
+font-size: 1.2rem;
+}
   /* 
 ボタン
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
@@ -351,13 +355,13 @@ max-width: 30%;
 
   .info th,
   .info td {
-    font-weight: bold;
+   font-size: 1.2rem;
   }
 
   .info-map {
     display: flex;
     justify-content: space-between;
-    padding: 0 4rem;
+    padding: 0 2rem;
   }
 
 }
