@@ -116,7 +116,6 @@ h1 a {
 
 .title img {
   width: 30%;
-  ;
   object-fit: cover;
 }
 
@@ -284,9 +283,15 @@ iframe {
 
   .page-title {
     width: 100%;
-    padding-top: 5rem;
-    margin: 10rem;
+    padding-top: 6rem;
+text-align: center;
+    font-size: 4rem;
   }
+
+  .title img {
+max-width: 30%;
+  object-fit: cover;
+}
 
   .item img {
     width: 100%;
@@ -311,7 +316,7 @@ iframe {
 
   .about p,
   .menu p {
-    width: 1150px;
+    width: 95%;
     font-size: 2rem;
   }
 
@@ -324,6 +329,9 @@ iframe {
     gap: 1rem 5rem;
   }
 
+.flex {
+  gap: 1em 1rem;
+}
 
   /* 
 ボタン
