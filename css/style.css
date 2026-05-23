@@ -11,6 +11,10 @@ img {
   vertical-align: bottom;
 }
 
+.font-english{
+    font-family: "Kaisei Decol", serif;
+}
+
 /* レイアウト 
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
 body {
@@ -18,8 +22,7 @@ body {
   font-family: "Kaisei Decol", serif;
   line-height: 1.7;
   background-image: url(../img/haikei-2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size:cover;
   color: #777;
 }
 
@@ -33,6 +36,8 @@ body {
   position: relative;
   padding-bottom: 12px;
 }
+
+
 
 /* 
 ヘッダー 
