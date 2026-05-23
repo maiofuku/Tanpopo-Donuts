@@ -55,7 +55,7 @@ h1 a {
 .logo {
   width: 75px;
   border-radius: 50%;
-padding-top: .5rem;
+  padding-top: .5rem;
 
 }
 
@@ -92,7 +92,7 @@ padding-top: .5rem;
   font-size: 1.5rem;
   margin: 2rem;
   line-height: 1.4;
-padding-left: .5rem;
+  padding-left: .5rem;
 }
 
 .heading-large {
@@ -102,15 +102,17 @@ padding-left: .5rem;
   margin-left: .5rem;
 }
 
-.title{
+.title {
   display: flex;
   justify-content: space-between;
 }
 
-.title img{
-  width: 30%;;
+.title img {
+  width: 30%;
+  ;
   object-fit: cover;
 }
+
 /* 
 内容
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
@@ -119,7 +121,7 @@ padding-left: .5rem;
   text-align: center;
 }
 
-h2{
+h2 {
   padding: .5rem;
 }
 
@@ -143,7 +145,7 @@ h2{
 }
 
 .about p,
-.menu p{
+.menu p {
   padding: .5rem;
 }
 
@@ -198,7 +200,7 @@ h2{
   border-spacing: 0;
 }
 
-h3{
+h3 {
   padding: .5rem;
 }
 
