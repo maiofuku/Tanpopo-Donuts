@@ -99,6 +99,7 @@ padding-left: .5rem;
   font-size: 1.7rem;
   display: inline-block;
   border-bottom: dotted 5px #c58b5b;
+  margin-left: .5rem;
 }
 
 .title{
@@ -138,7 +139,12 @@ h2{
 .about p,
 .menu {
   margin-bottom: 5rem;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
+}
+
+.about p,
+.menu p{
+  padding: .5rem;
 }
 
 .flex {
