@@ -59,10 +59,9 @@ h1 a {
 }
 
 .logo {
-  width: 60px;
+  width: 50px;
   border-radius: 50%;
   padding-top: .5rem;
-
 }
 
 .main-nav {
@@ -322,6 +321,7 @@ max-width: 30%;
 
   .menu p{
     margin-bottom: 2rem;
+    font-size: 1.2rem;
   }
 
   .item {
