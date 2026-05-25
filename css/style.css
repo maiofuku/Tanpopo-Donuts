@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: solid 1px red;
+  /* border: solid 1px red; */
   font-weight: normal;
   box-sizing: border-box;
 }
