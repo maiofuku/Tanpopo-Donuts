@@ -110,13 +110,10 @@ h1 a {
 
 .title {
   display: flex;
-  justify-content: space-around;
-
 }
 
 .title img {
   width: 30%;
-
 }
 
 /* 
