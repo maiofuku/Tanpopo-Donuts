@@ -67,7 +67,7 @@ h1 a {
 .main-nav {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: .75rem;
   font-size: 1rem;
   list-style: none;
   margin: 1rem 0;
@@ -114,7 +114,7 @@ h1 a {
 }
 
 .title img {
-  width: 30%;
+  width: 20%;
   object-fit: cover;
 }
 
@@ -195,6 +195,48 @@ h2 {
 }
 
 /* 
+お問い合わせ
+ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
+
+.contact {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+  width: 100%;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact .name,
+.contact .gender,
+.contact .option,
+.contact .message {
+  margin-bottom: 1rem;
+}
+
+.contact .name {
+  margin-top: 1rem;
+  border: solid 1px #777;
+  border-radius: 8px;
+}
+
+.contact .option {
+  border: solid 1px #777;
+  color: #777;
+  border-radius: 8px;
+  padding: 0 1rem;
+}
+
+.contact .message {
+  border: solid 1px #777;
+  border-radius: 8px;
+}
+
+.contact textarea {
+  width: 100%;
+}
+
+/* 
 フッター
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
 .info {
@@ -257,6 +299,7 @@ iframe {
 
   .main-nav {
     font-size: 1.5rem;
+    gap: 2rem;
   }
 
   /* 
@@ -282,15 +325,15 @@ iframe {
 
   .page-title {
     width: 100%;
-    padding-top: 6rem;
-text-align: center;
+    padding-top: 4rem;
+    text-align: center;
     font-size: 4rem;
   }
 
   .title img {
-max-width: 30%;
-  object-fit: cover;
-}
+    max-width: 20%;
+    object-fit: cover;
+  }
 
   .item img {
     width: 100%;
@@ -319,7 +362,7 @@ max-width: 30%;
     padding-left: 2rem;
   }
 
-  .menu p{
+  .menu p {
     margin-bottom: 2rem;
   }
 
@@ -328,13 +371,14 @@ max-width: 30%;
     gap: 1rem 5rem;
   }
 
-.flex {
-  gap: 1em 1rem;
-}
+  .flex {
+    gap: 1em 1rem;
+  }
 
-.flex p{
-font-size: 1.2rem;
-}
+  .flex p {
+    font-size: 1.2rem;
+  }
+
   /* 
 ボタン
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
@@ -343,9 +387,58 @@ font-size: 1.2rem;
   }
 
   /* 
+お問い合わせ
+ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
+
+  .contact {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .contact .name,
+  .contact .gender,
+  .contact .option,
+  .contact .message {
+    margin-bottom: 2rem;
+  }
+
+  .contact .name {
+    margin-top: 2rem;
+    border: solid 1px #777;
+    border-radius: 8px;
+  }
+
+  .contact .option {
+    border: solid 1px #777;
+    border-radius: 8px;
+    padding: 0 1rem;
+  }
+
+  .contact .message {
+    border: solid 1px #777;
+    border-radius: 8px;
+  }
+
+  .contact .box {
+    max-width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+  }
+
+  .box p {
+    width: 51%;
+    text-align: right;
+  }
+
+  .contact .message {
+    text-align: left;
+  }
+
+  /* 
 フッター
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
-.info {
+  .info {
     width: 100%;
     max-width: 544px;
     padding: 0 1.5rem;
@@ -355,7 +448,7 @@ font-size: 1.2rem;
 
   .info th,
   .info td {
-   font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 
   .info-map {
