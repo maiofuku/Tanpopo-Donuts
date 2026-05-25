@@ -236,6 +236,15 @@ h2 {
   width: 100%;
 }
 
+.action {
+  max-width: 50%;
+
+}
+
+.box_02 {
+  text-align: center;
+  margin-top: 24px;
+}
 /* 
 フッター
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
@@ -434,6 +443,10 @@ iframe {
   .contact .message {
     text-align: left;
   }
+
+.action {
+  max-width: 25%;
+}
 
   /* 
 フッター
