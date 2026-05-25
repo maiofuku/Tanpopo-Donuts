@@ -96,7 +96,7 @@ h1 a {
 .page-title {
   max-width: 80%;
   font-size: 1.5rem;
-  margin: 1rem;
+  padding-top: 2rem;
   line-height: 1.4;
   /* padding-left: .5rem; */
 }
@@ -110,10 +110,12 @@ h1 a {
 
 .title {
   display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
 }
 
 .title img {
-  width: 30%;
+  width: 40%;
 }
 
 /* 
@@ -465,7 +467,4 @@ iframe {
   .info-map {
     display: flex;
     justify-content: space-between;
-    padding: 0 2rem;
-  }
-
-}
+    padding: 
