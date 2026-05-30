@@ -254,6 +254,7 @@ h2 {
   margin-top: 1rem;
   border: solid 1px #777;
   border-radius: 8px;
+  width: 70%;
 }
 
 .contact .option {
@@ -266,6 +267,7 @@ h2 {
 .contact .message {
   border: solid 1px #777;
   border-radius: 8px;
+  width: 90%;
 }
 
 .contact textarea {
@@ -485,6 +487,10 @@ iframe {
 お問い合わせ
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
 
+form{
+margin: 0 auto;
+}
+
   .contact {
     text-align: center;
     font-size: 2rem;
@@ -499,6 +505,7 @@ iframe {
   }
 
   .contact .name {
+    width: 50%;
     margin-top: 2rem;
     border: solid 1px #777;
     border-radius: 8px;
@@ -511,24 +518,18 @@ iframe {
   }
 
   .contact .message {
+    width: 70%;
     border: solid 1px #777;
     border-radius: 8px;
   }
 
+   .contact .message p{
+    padding-bottom: 10%;
+   }
+
   .contact .box {
-    max-width: 100%;
-    display: flex;
-    gap: 1rem;
-    margin: 0 auto;
-  }
-
-  .box p {
-    width: 51%;
-    text-align: right;
-  }
-
-  .contact .message {
-    text-align: left;
+    /* display: flex;
+    justify-content: center; */
   }
 
   .action {
