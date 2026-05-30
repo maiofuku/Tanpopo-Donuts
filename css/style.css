@@ -441,11 +441,15 @@ h3 {
     margin: 4rem 0 0 0;
   }
 
+.about p,
+.menu p {
+   font-size: 2.4rem;
+}
+
   .about p,
   .menu p {
     width: 95%;
-    font-size: 3rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
 
   .menu p {
