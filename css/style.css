@@ -98,7 +98,7 @@ h1 a {
   padding-left: .8rem;
 }
 
-.page-title p{
+.page-title p {
   font-size: .9rem;
 
 }
@@ -112,8 +112,8 @@ h1 a {
 
 .title {
   display: flex;
-  justify-content:flex-end;
-    margin-left: 2.8rem;
+  justify-content: flex-end;
+  margin-left: 2.8rem;
 }
 
 .title img {
@@ -312,10 +312,14 @@ h3 {
   padding: 1rem 0
 }
 
-iframe {
-  max-width: 100%;
-  margin-top: .5rem;
-  align-items: center;
+.map {
+  margin: 20px;
+  height:70%;
+}
+
+.map iframe {
+  width: 100%;
+  height: 500px;
 }
 
 .copyright {
@@ -375,9 +379,9 @@ iframe {
     font-size: 4rem;
   }
 
-.page-title p {
-  font-size: 2.5rem;
-}
+  .page-title p {
+    font-size: 2.5rem;
+  }
 
   .title {
     width: 70%;
@@ -488,9 +492,9 @@ iframe {
 お問い合わせ
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
 
-form{
-margin: 0 auto;
-}
+  form {
+    margin: 0 auto;
+  }
 
   .contact {
     text-align: center;
@@ -524,13 +528,8 @@ margin: 0 auto;
     border-radius: 8px;
   }
 
-   .contact .message p{
+  .contact .message p {
     padding-bottom: 10%;
-   }
-
-  .contact .box {
-    /* display: flex;
-    justify-content: center; */
   }
 
   .action {
@@ -551,11 +550,30 @@ margin: 0 auto;
   .info th,
   .info td {
     font-size: 1.2rem;
+    padding: 30px 0;
   }
 
   .info-map {
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
   }
 
+  .info {
+    width: 40%;
+    max-width: none;
+
+  }
+
+  .map {
+    width: 50%;
+    margin: 0;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 500px;
+    display: block;
+  }
+}
 }
