@@ -3,9 +3,10 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: solid 1px red; */
+  /* outline: solid 1px red; */
   font-weight: normal;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 img {
@@ -22,13 +23,8 @@ body {
   background-color: blanchedalmond;
   font-family: "Kaisei Decol", serif;
   line-height: 1.7;
-  background-image: url(../img/haikei-2.png);
+  background-image: url(../img/background.png);
   background-size: cover;
-  color: #777;
-}
-
-.align-center {
-  text-align: center;
   color: #777;
 }
 
@@ -38,15 +34,9 @@ body {
   padding-bottom: 12px;
 }
 
-
-
 /* 
 ヘッダー 
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
-
-a {
-  text-decoration: none;
-}
 
 h1 a {
   color: #fff;
@@ -54,14 +44,22 @@ h1 a {
 }
 
 .page-header {
-  padding: .2rem;
+  padding: 1rem;
   background-color: #8b5e3c;
 }
 
-.logo {
-  width: 50px;
+.align-center .logo {
+  width: 80px;
   border-radius: 50%;
-  padding-top: .5rem;
+  margin-left: 20px;
+}
+
+h1 a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  font-size: 20px;
 }
 
 .main-nav {
@@ -70,7 +68,7 @@ h1 a {
   gap: .75rem;
   font-size: 1rem;
   list-style: none;
-  margin: 1rem 0;
+  margin-top: 1rem;
 }
 
 .main-nav a {
@@ -122,8 +120,40 @@ h1 a {
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
 
 .top {
-  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
+
+.top-top {
+  width: 100%;
+}
+
+.catchcopy {
+  position: absolute;
+  left: 5%;
+  top: 4%;
+
+  color: #fff;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.btn_top a {
+  display: inline-block;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 40%;
+  background-color: #c58b5b;
+  padding: 0 10px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  margin-right: 10px;
+  outline: solid 1px #8b5e3c;
+}
+
+
 
 h2 {
   padding: .5rem;
@@ -168,6 +198,12 @@ h2 {
 .item img {
   width: 100%;
   border-radius: 20px;
+  transition: .3s;
+}
+
+.item img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
 }
 
 .flex p {
@@ -185,7 +221,8 @@ h2 {
   border-radius: 8px;
   padding: .5rem 1.5rem;
   transition: .5s;
-  margin: 5rem 0;
+  margin: 5rem 4rem;
+  outline: solid 1px #8b5e3c;
 }
 
 .btn:hover {
@@ -201,7 +238,7 @@ h2 {
   background-color: #ffffff;
   padding: 32px;
   border-radius: 16px;
-  width: 100%;
+  width: 90%;
   margin: 40px auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -339,14 +376,14 @@ iframe {
     font-size: 4rem;
   }
 
-.title{
-  width: 70%;
-margin-left: auto;
-margin-right: 30px;
-}
+  .title {
+    width: 70%;
+    margin-left: auto;
+    margin-right: 30px;
+  }
 
   .title img {
-   width: 30%;
+    width: 30%;
     object-fit: cover;
     margin-right: 15px;
   }
@@ -364,6 +401,32 @@ margin-right: 30px;
     margin-left: 1rem;
   }
 
+  .catchcopy {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+
+    color: #fff;
+    font-size: 5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+  }
+
+  .btn_top a {
+    display: inline-block;
+    justify-content: center;
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 50%;
+    background-color: #c58b5b;
+    padding: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    margin-left: 5%;
+    outline: solid 1px #8b5e3c;
+  }
+
+
+
   .about,
   .menu {
     max-width: 2000px;
@@ -374,7 +437,7 @@ margin-right: 30px;
   .about p,
   .menu p {
     width: 95%;
-    font-size: 2rem;
+    font-size: 3rem;
     padding-left: 2rem;
   }
 
@@ -395,12 +458,28 @@ margin-right: 30px;
     font-size: 1.2rem;
   }
 
+
+
   /* 
 ボタン
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
   .btn {
+    margin-left: 40%;
     font-size: 2rem;
+    background-color: #c58b5b;
+    color: #fff;
+    border-radius: 8px;
+    padding: .5rem 1.5rem;
+    transition: .5s;
+
+    outline: solid 1px #8b5e3c;
   }
+
+  .btn:hover {
+    background-color: #8b5e3c;
+    color: white;
+  }
+
 
   /* 
 お問い合わせ
@@ -409,6 +488,7 @@ margin-right: 30px;
   .contact {
     text-align: center;
     font-size: 2rem;
+    width: 90%;
   }
 
   .contact .name,
