@@ -138,18 +138,18 @@ h1 a {
   position: absolute;
   left: 5%;
   top: 4%;
-
   color: #fff;
   font-size: 1.8rem;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
 }
 
+#catchcopy{
+  margin-bottom: 90px;
+}
+
 .btn_top a {
-  display: inline-block;
-  justify-content: center;
   font-size: 1.2rem;
   color: #fff;
-  margin-top: 40%;
   background-color: #c58b5b;
   padding: 0 10px;
   border-radius: 8px;
@@ -227,6 +227,46 @@ h1 a {
 .btn:hover {
   background-color: #8b5e3c;
   color: white;
+}
+
+/* メニュー */
+
+.menu_top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.menu_top p {
+  font-family: "Kaisei", serif;
+  position: absolute;
+  left: 5%;
+  top: 2%;
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.inner{
+  text-align: center;
+  margin: 100px 0;
+}
+
+
+#line img{
+width: 500px;
+   object-fit: cover;
+}
+
+
+.menu_flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em .7rem;
+  justify-content: center;
+  padding: .5rem;
+  /* margin: 50% 0; */
 }
 
 /* 
@@ -314,7 +354,7 @@ h3 {
 
 .map {
   margin: 20px;
-  height:70%;
+  height: 70%;
 }
 
 .map iframe {
@@ -408,30 +448,39 @@ h3 {
     margin-left: 1rem;
   }
 
-  .catchcopy {
-    position: absolute;
-    left: 5%;
-    top: 4%;
+.top {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
 
-    color: #fff;
-    font-size: 5rem;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
-  }
+.top-top {
+  width: 100%;
+}
 
-  .btn_top a {
-    display: inline-block;
-    justify-content: center;
-    font-size: 3rem;
-    color: #fff;
-    margin-top: 50%;
-    background-color: #c58b5b;
-    padding: 0 10px;
-    border-radius: 8px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-    margin-left: 5%;
-    outline: solid 1px #8b5e3c;
-  }
+.catchcopy {
+  position: absolute;
+  left: 5%;
+  top: 4%;
+  color: #fff;
+  font-size: 6rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
 
+#catchcopy{
+  margin-bottom: 250px;
+}
+
+.btn_top a {
+  font-size:4rem;
+  color: #fff;
+  background-color: #c58b5b;
+  padding: 0 10px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  margin-right: 30px;
+  outline: solid 1px #8b5e3c;
+}
 
 
   .about,
@@ -441,10 +490,10 @@ h3 {
     margin: 4rem 0 0 0;
   }
 
-.about p,
-.menu p {
-   font-size: 2.4rem;
-}
+  .about p,
+  .menu p {
+    font-size: 2.4rem;
+  }
 
   .about p,
   .menu p {
@@ -491,6 +540,19 @@ h3 {
     color: white;
   }
 
+
+  /* メニュー */
+  .menu_top img {
+    width: 100%;
+    height: 800px;
+    object-position: top;
+    object-fit: cover;
+  }
+
+  .menu_top p {
+    font-size: 10rem;
+    font-family: "Kaisei Decol", serif;
+  }
 
   /* 
 お問い合わせ
@@ -579,5 +641,4 @@ h3 {
     height: 500px;
     display: block;
   }
-}
 }
