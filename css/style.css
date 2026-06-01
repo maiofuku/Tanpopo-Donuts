@@ -65,7 +65,7 @@ h1 a {
 .main-nav {
   display: flex;
   justify-content: center;
-  gap: .75rem;
+  gap: 1.5rem;
   font-size: 1rem;
   list-style: none;
   margin-top: 1rem;
@@ -136,19 +136,20 @@ h1 a {
 
 .small{
   font-size: .6rem;
+  
 }
 
 .catchcopy {
   position: absolute;
   left: 5%;
-  top: 4%;
+  top: 1%;
   color: #fff;
   font-size: 1.8rem;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
 }
 
 #catchcopy {
-  margin-bottom: 60px;
+  margin-bottom: 65px;
 }
 
 .btn_top a {
