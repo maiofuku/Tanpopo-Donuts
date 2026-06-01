@@ -143,7 +143,7 @@ h1 a {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
 }
 
-#catchcopy{
+#catchcopy {
   margin-bottom: 90px;
 }
 
@@ -248,15 +248,15 @@ h1 a {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
 }
 
-.inner{
+.inner {
   text-align: center;
   margin: 100px 0;
 }
 
 
-#line img{
-width: 200px;
-   object-fit: cover;
+#line img {
+  width: 200px;
+  object-fit: cover;
 }
 
 
@@ -272,6 +272,24 @@ width: 200px;
 /* 
 お問い合わせ
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
+
+.contact_top {
+  font-family: "Kaisei", serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.contact_top p {
+  font-family: "Kaisei", serif;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
 
 .contact {
   background-color: #ffffff;
@@ -322,6 +340,32 @@ width: 200px;
   text-align: center;
   margin-top: 24px;
 }
+
+/* news */
+
+/* NEWS */
+
+.news_top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.news_top p {
+  font-family: "Kaisei", serif;
+  position: absolute;
+  left: 5%;
+  top: 2%;
+  color: #fff;
+  font-size:3rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.article-top p{
+text-align: center;
+}
+
 
 /* 
 フッター
@@ -389,6 +433,7 @@ h3 {
   }
 
   .main-nav {
+   font-family: "Kaisei Decol", serif;
     font-size: 1.5rem;
     gap: 2rem;
   }
@@ -448,39 +493,39 @@ h3 {
     margin-left: 1rem;
   }
 
-.top {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
+  .top {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
 
-.top-top {
-  width: 100%;
-}
+  .top-top {
+    width: 100%;
+  }
 
-.catchcopy {
-  position: absolute;
-  left: 5%;
-  top: 4%;
-  color: #fff;
-  font-size: 6rem;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
-}
+  .catchcopy {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    color: #fff;
+    font-size: 6rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+  }
 
-#catchcopy{
-  margin-bottom: 250px;
-}
+  #catchcopy {
+    margin-bottom: 250px;
+  }
 
-.btn_top a {
-  font-size:4rem;
-  color: #fff;
-  background-color: #c58b5b;
-  padding: 0 10px;
-  border-radius: 8px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-  margin-right: 30px;
-  outline: solid 1px #8b5e3c;
-}
+  .btn_top a {
+    font-size: 4rem;
+    color: #fff;
+    background-color: #c58b5b;
+    padding: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    margin-right: 30px;
+    outline: solid 1px #8b5e3c;
+  }
 
 
   .about,
@@ -549,21 +594,48 @@ h3 {
     object-fit: cover;
   }
 
-.inner{
-  text-align: center;
-  margin: 100px 0;
-}
+  .inner {
+    text-align: center;
+    margin: 100px 0;
+  }
 
 
-#line img{
-width: 500px;
-   object-fit: cover;
-}
+  #line img {
+    width: 500px;
+    object-fit: cover;
+  }
 
   .menu_top p {
     font-size: 10rem;
     font-family: "Kaisei Decol", serif;
   }
+
+/* NEWS */
+
+.news_top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.news_top p {
+  font-family: "Kaisei", serif;
+  position: absolute;
+  left: 5%;
+  top: 2%;
+  color: #fff;
+  font-size: 10rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+
+/* NEWS */
+
+.article-top p{
+font-size: 3rem;
+}
+
 
   /* 
 お問い合わせ
@@ -578,6 +650,24 @@ width: 500px;
     font-size: 2rem;
     width: 90%;
   }
+
+.contact_top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.contact_top p {
+  font-family: "Kaisei", serif;
+  position: absolute;
+  left: 5%;
+  top: 2%;
+  color: #fff;
+  font-size: 10rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
 
   .contact .name,
   .contact .gender,
