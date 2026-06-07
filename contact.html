@@ -30,7 +30,6 @@
           たんぽぽ ドーナッツ</a>
       </h1>
     </div>
-  </header>
 
     <nav>
       <ul class="main-nav">
@@ -40,6 +39,7 @@
         <li><a href="#access">店舗情報</a></li>
       </ul>
     </nav>
+  </header>
 
   <div class="contact_top">
     <img class="top-top" src="img/9.png" alt="ドーナッツの画像">
@@ -59,10 +59,11 @@
         お気軽にお問い合わせください。
       </p>
 
-      <p>名前：<input class="name" type="text" placeholder="山田　太郎"></p>
+      <p><label>名前：<input class="name" type="text"  name="name" placeholder="山田　太郎" required></label></p>
 
-      <p>
-        性別：
+      <p><label>アドレス：<input class="mail" type="email" name="mail" placeholder="" required></label></p>
+
+      <p>性別：
         <input class="gender" type="radio" name="gender" value="男性">男性
         <input class="gender" type="radio" name="gender" value="女性">女性
         <input class="gender" type="radio" name="gender" value="その他">その他
