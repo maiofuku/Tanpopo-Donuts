@@ -24,7 +24,8 @@ body {
   font-family: "Kaisei Decol", serif;
   line-height: 1.7;
   background-image: url(../img/background.png);
-  background-size: cover;
+background-repeat: repeat;
+  width: 100%;
   color: #777;
 }
 
@@ -38,14 +39,9 @@ body {
 ヘッダー 
 ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ*/
 
-h1 a {
-  color: #fff;
-  font-size: 20px;
-}
-
 .page-header {
-  padding: 1rem;
-  background-color: #8b5e3c;
+  padding:1rem;
+  /* background-color: #eee; */
 }
 
 .align-center .logo {
@@ -58,21 +54,33 @@ h1 a {
   display: flex;
   align-items: center;
   gap: 12px;
-  color: #fff;
+  color: #8b5e3c;
   font-size: 20px;
 }
 
 .main-nav {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
   font-size: 1rem;
   list-style: none;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+  background-image: url(../img/nav7.png);
+  background-size: cover;
+  gap: 1rem;
+}
+
+nav {
+  background-color: #8b5e3c;
+  background-size: cover;
+  background-position: top bottom;
+  padding: 10px 0;
 }
 
 .main-nav a {
   color: #fff;
+  padding: 0 1rem;
+  border: 2px dotted #c58b5b;
+  border-radius: 10px;
 }
 
 .main-nav a:hover {
@@ -93,7 +101,7 @@ h1 a {
 
 .page-title {
   width: 100%;
-  padding-top: 2rem;
+  padding-top: 3rem;
   line-height: 1.4;
   padding-left: .8rem;
 }
@@ -134,9 +142,9 @@ h1 a {
   width: 100%;
 }
 
-.small{
+.small {
   font-size: .6rem;
-  
+
 }
 
 .catchcopy {
@@ -171,7 +179,7 @@ h1 a {
 
 .about,
 .menu {
-  max-width: 736px;
+  /* max-width: 736px; */
   /* padding: 0 1.5rem; */
   margin: 2rem auto 0;
 }
@@ -187,32 +195,53 @@ h1 a {
   padding: .5rem;
 }
 
-.flex {
+.menu_card {
+  position: relative;
+  width: 30%;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 24px;
+  padding: 110px 20px 30px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .15);
+  margin-top: 100px;
+}
+
+.menu_card img {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 190px;
+  border-radius: 20px;
+}
+
+.menu_card h4{
+  color:#8b5e3c;
+  font-weight:bold;
+  margin-top: 1rem;
+}
+
+.menu_card p {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  margin-top: 16px;
+}
+
+.menu_flex {
   display: flex;
   flex-wrap: wrap;
-  gap: 1em .7rem;
   justify-content: center;
-  padding: .5rem;
+  gap: 40px 24px;
 }
 
-.item {
-  width: 48%;
+.menu_card {
+  width: 90%;
 }
 
-.item img {
-  width: 100%;
-  border-radius: 20px;
-  transition: .3s;
-}
-
-.item img:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-}
-
-.flex p {
-  font-size: .75rem;
-}
 
 /* 
 ボタン
@@ -334,6 +363,8 @@ h1 a {
 
 .contact textarea {
   width: 100%;
+  overflow: auto;
+  resize: vertical;
 }
 
 .action {
@@ -345,8 +376,6 @@ h1 a {
   text-align: center;
   margin-top: 24px;
 }
-
-/* news */
 
 /* NEWS */
 
@@ -363,12 +392,12 @@ h1 a {
   left: 5%;
   top: 2%;
   color: #fff;
-  font-size:3rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
 }
 
-.article-top p{
-text-align: center;
+.article-top p {
+  text-align: center;
 }
 
 
@@ -421,8 +450,9 @@ h3 {
 
 @media (min-width: 800px) {
 
+
   h1 a {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   /* 
@@ -438,9 +468,9 @@ h3 {
   }
 
   .main-nav {
-   font-family: "Kaisei Decol", serif;
-    font-size: 1.5rem;
-    gap: 2rem;
+    font-family: "Kaisei Decol", serif;
+    font-size: 2rem;
+    gap: 3rem;
   }
 
   /* 
@@ -502,9 +532,9 @@ h3 {
     align-items: center;
   }
 
-.small{
-  font-size: 2rem;
-}
+  .small {
+    font-size: 2rem;
+  }
 
   .catchcopy {
     position: absolute;
@@ -553,20 +583,51 @@ h3 {
     margin-bottom: 2rem;
   }
 
-  .item {
-    width: 23%;
-    gap: 1rem 5rem;
-  }
+.menu_card {
+  position: relative;
+  width: 30%;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 24px;
+  padding: 110px 20px 30px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .15);
+  margin-top: 100px;
+}
 
-  .flex {
-    gap: 1em 1rem;
-  }
+.menu_card img {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  border-radius: 20px;
+}
 
-  .flex p {
-    font-size: 1.2rem;
-  }
+.menu_card h4 {
+  font-size: 2.5rem;
+  margin-top: 110px;
+}
 
+.menu_card p {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
 
+.price {
+  font-size: 1.5rem;
+  margin-top: 16px;
+}
+
+.menu_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 24px;
+}
+
+.menu_card {
+  width: 45%;
+}
 
   /* 
 ボタン
@@ -613,31 +674,31 @@ h3 {
     font-family: "Kaisei Decol", serif;
   }
 
-/* NEWS */
+  /* NEWS */
 
-.news_top {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
+  .news_top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
 
-.news_top p {
-  font-family: "Kaisei", serif;
-  position: absolute;
-  left: 5%;
-  top: 2%;
-  color: #fff;
-  font-size: 10rem;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
-}
+  .news_top p {
+    font-family: "Kaisei", serif;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    color: #fff;
+    font-size: 10rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+  }
 
 
-/* NEWS */
+  /* NEWS */
 
-.article-top p{
-font-size: 3rem;
-}
+  .article-top p {
+    font-size: 3rem;
+  }
 
 
   /* 
@@ -654,29 +715,29 @@ font-size: 3rem;
     width: 90%;
   }
 
-.contact_top {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
+  .contact_top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
 
-.contact_top p {
-  font-family: "Kaisei", serif;
-  position: absolute;
-  left: 5%;
-  top: 2%;
-  color: #fff;
-  font-size: 10rem;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
-}
+  .contact_top p {
+    font-family: "Kaisei", serif;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    color: #fff;
+    font-size: 10rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+  }
 
 
   .contact .name,
   .contact .gender,
   .contact .option,
   .contact .message {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   .contact .name {
