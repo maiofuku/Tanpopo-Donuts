@@ -69,8 +69,8 @@ h1 a {
 }
 
 nav {
-  background-color: #8b5e3c;
   padding: 10px 0;
+  background-color: #8b5e3c;
 
 }
 
@@ -207,6 +207,7 @@ nav li {
 }
 
 .menu_card {
+  min-height: 500px;
   position: relative;
   width: 30%;
   background-color: rgba(255, 255, 255, .5);
@@ -227,9 +228,9 @@ nav li {
 }
 
 .menu_card h4 {
+  font-size: 1.8rem;
   color: #8b5e3c;
   font-weight: bold;
-  margin-top: 1rem;
 }
 
 .menu_card p {
@@ -238,16 +239,11 @@ nav li {
 }
 
 .price {
-  font-size: 1.5rem;
-  margin-top: 16px;
+  font-size: 2rem;
+  color: #c58b5b;
+  font-weight: bold;
 }
 
-.menu_flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px 24px;
-}
 
 .menu_card {
   width: 90%;
@@ -541,12 +537,6 @@ h3 {
     margin-right: 15px;
   }
 
-  .item img {
-    width: 100%;
-    border-radius: 20px;
-    object-fit: cover;
-  }
-
   .heading-large {
     font-size: 4rem;
     display: inline-block;
@@ -645,13 +635,6 @@ h3 {
   .price {
     font-size: 1.5rem;
     margin-top: 16px;
-  }
-
-  .menu_flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px 24px;
   }
 
   .menu_card {
