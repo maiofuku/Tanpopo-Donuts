@@ -87,10 +87,10 @@ nav li {
 }
 
 
+
 .main-nav a {
   color: #fff;
   padding: .8rem;
-
 }
 
 .main-nav a:hover {
@@ -180,6 +180,12 @@ nav li {
   margin-right: 10px;
   outline: dashed 1px #fff;
   outline-offset: -4px;
+  transition: .5s;
+}
+
+.btn_top a:hover {
+  background-color: #8b5e3c;
+  color: white;
 }
 
 .top img {
@@ -190,8 +196,6 @@ nav li {
 
 .about,
 .menu {
-  /* max-width: 736px; */
-  /* padding: 0 1.5rem; */
   margin: 2rem auto 0;
 }
 
@@ -207,7 +211,6 @@ nav li {
 }
 
 .menu_card {
-  min-height: 500px;
   position: relative;
   width: 30%;
   background-color: rgba(255, 255, 255, .5);
@@ -228,7 +231,7 @@ nav li {
 }
 
 .menu_card h4 {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   color: #8b5e3c;
   font-weight: bold;
 }
@@ -244,9 +247,20 @@ nav li {
   font-weight: bold;
 }
 
-
 .menu_card {
   width: 90%;
+}
+
+.other .btn {
+  display: inline-block;
+  font-size: 1.3rem;
+  background-color: #c58b5b;
+  color: #fff;
+  border-radius: 8px;
+  padding: .5rem 1.5rem;
+  margin: 5rem 4rem;
+  outline: dashed 1px #fff;
+  outline-offset: -6px;
 }
 
 
@@ -620,6 +634,7 @@ h3 {
     transform: translateX(-50%);
     width: 300px;
     border-radius: 20px;
+    gap: 15px;
   }
 
   .menu_card h4 {
@@ -639,6 +654,17 @@ h3 {
 
   .menu_card {
     width: 45%;
+  }
+
+  .other .btn {
+    font-size: 2.5rem;
+    background-color: #c58b5b;
+    color: #fff;
+    border-radius: 8px;
+    padding: .5rem 1.5rem;
+    margin: 5rem 30rem;
+    outline: dashed 1px #fff;
+    outline-offset: -6px;
   }
 
   /* 
