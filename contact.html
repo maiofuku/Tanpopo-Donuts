@@ -47,55 +47,54 @@
   </div>
 
   <div class="inner">
-  <div id="line">
-    <img src="img/line_top.png">
-  </div>
+    <div id="line">
+      <img src="img/line_top.png">
+    </div>
   </div>
 
   <section class="contact">
     <form>
       <h3 class="heading-large" id="contact">お問い合わせ</h3>
-      <p>
-        お気軽にお問い合わせください。
-      </p>
+      <h4>
+        お気軽にお問い合わせください。<br>
+        ※お預かりした個人情報は、お問い合わせ対応の目的にのみ使用いたします。<br>
+        その他の目的で利用することはありません。
+      </h4>
 
-      <p><label>名前：<input class="name" type="text"  name="name" placeholder="山田　太郎" required></label></p>
+      <p><label>名前(必須)：<br><input class="name" type="text" name="name" placeholder="山田　太郎" required></label></p>
 
-      <p><label>アドレス：<input class="mail" type="email" name="mail" placeholder="" required></label></p>
+      <p><label>アドレス(必須)：<br><input class="mail" type="email" name="mail" placeholder="" required></label></p>
 
-      <p>性別：
-        <input class="gender" type="radio" name="gender" value="男性">男性
-        <input class="gender" type="radio" name="gender" value="女性">女性
+      <p>性別：<br>
+        <input class="gender" type="radio" name="gender" value="男性">男性　
+        <input class="gender" type="radio" name="gender" value="女性">女性　
         <input class="gender" type="radio" name="gender" value="その他">その他
       </p>
 
-      <p>お問い合わせ内容：
+      <p>お問い合わせ内容：<br>
         <select class="option" name="option">
-          <option value="選択ください">選択ください</option>
-          <option value="商品について">商品について</option>
-          <option value="送料・支払方法">送料・支払方法</option>
-          <option value="採用情報">採用情報</option>
-          <option value="その他">その他</option>
+          <option name="option" value="選択ください">選択ください</option>
+          <option name="option" value="商品について">商品について</option>
+          <option name="option" value="送料・支払方法">送料・支払方法</option>
+          <option name="option" value="採用情報">採用情報</option>
+          <option name="option" value="その他">その他</option>
         </select>
       </p>
 
-      <div class="box">
-        <p>詳細：</p>
+      <p>詳細：<br>
         <textarea class="message" name="message" placeholder="詳細をご記入ください"></textarea>
-      </div>
+      </p>
 
-      <div class="box_02">
-        <input class="action" type="image" src="img/botan.png" alt="送信する" value="送信する">
-      </div>
+      <p><input class="btn" type="submit" alt="送信する" value="送信する"></p>
     </form>
   </section>
 
-   <div class="inner">
-  <div id="line">
-    <img src="img/line_bottom.png">
+  <div class="inner">
+    <div id="line">
+      <img src="img/line_bottom.png">
+    </div>
   </div>
-   </div>
-   
+
   <footer class="page-footer">
 
     <h3 class="heading-large" id="access">店舗情報</h3>
@@ -126,6 +125,10 @@
           width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
+    </div>
+
+    <div class="leaf">
+      <p><img src="img/footer.png" alt=""></p>
     </div>
 
     <div class="copyright">
