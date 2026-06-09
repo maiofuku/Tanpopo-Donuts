@@ -194,6 +194,12 @@ nav li {
   margin: 0;
 }
 
+.btn_top .disabled-btn {
+  opacity: 0.7;
+  cursor: default;
+  font-size: .9rem;
+}
+
 .about,
 .menu {
   margin: 2rem auto 0;
@@ -594,6 +600,11 @@ h3 {
     outline-offset: -6px;
   }
 
+.btn_top .disabled-btn {
+  opacity: 0.7;
+  cursor: default;
+  font-size: 2rem;
+}
 
   .about,
   .menu {
