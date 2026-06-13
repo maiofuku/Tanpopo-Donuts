@@ -131,11 +131,11 @@ nav li {
 .title {
   display: flex;
   justify-content: flex-end;
-  margin-left: 2.8rem;
+  margin: 1rem .5rem 0 2.8rem;
 }
 
 .title img {
-  width: 100px;
+  width: 80px;
 }
 
 /* 
@@ -207,8 +207,7 @@ nav li {
 
 .about p,
 .menu {
-  margin-bottom: 5rem;
-  /* padding: 0 1rem; */
+  margin-bottom: 1rem;
 }
 
 .about p,
@@ -244,7 +243,7 @@ nav li {
 
 .menu_card p {
   font-size: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .price {
@@ -264,7 +263,7 @@ nav li {
   color: #fff;
   border-radius: 8px;
   padding: .5rem 1.5rem;
-  margin: 5rem 4rem;
+  margin: 3rem 4rem 1rem;
   outline: dashed 1px #fff;
   outline-offset: -6px;
 }
@@ -312,7 +311,7 @@ nav li {
 
 .inner {
   text-align: center;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 
@@ -478,14 +477,14 @@ h3 {
   margin-top: 5rem;
   margin-left: 80%;
   object-fit: cover;
-  max-width: 10%;
+  max-width: 15%;
 }
 
 
 .copyright {
   background-color: #8b5e3c;
   text-align: center;
-  padding: .5rem 0;
+  padding: 3rem 0;
   color: #fff;
 }
 
@@ -553,7 +552,7 @@ h3 {
   }
 
   .title img {
-    width: 30%;
+    width: 20%;
     object-fit: cover;
     margin-right: 15px;
   }
